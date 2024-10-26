@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UTH_2023_2027\\CN2303CLCB_K23\\Ph\u00E2n T\u00EDch Thi\u1EBFt K\u1EBF Gi\u1EA3i Thu\u1EADt\\Team_Project\\Bai_7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55B4445B-774E-4C4E-A28C-269B523F106A}|Bai_7\\Bai_7.vcxproj|D:\\UTH_2023_2027\\CN2303CLCB_K23\\Ph\u00E2n T\u00EDch Thi\u1EBFt K\u1EBF Gi\u1EA3i Thu\u1EADt\\Team_Project\\Bai_7\\Bai_7\\Bai_7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55B4445B-774E-4C4E-A28C-269B523F106A}|Bai_7\\Bai_7.vcxproj|solutionrelative:Bai_7\\Bai_7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bai_7.cpp",
+              "DocumentMoniker": "D:\\UTH_2023_2027\\CN2303CLCB_K23\\Ph\u00E2n T\u00EDch Thi\u1EBFt K\u1EBF Gi\u1EA3i Thu\u1EADt\\Team_Project\\Bai_7\\Bai_7\\Bai_7.cpp",
+              "RelativeDocumentMoniker": "Bai_7\\Bai_7.cpp",
+              "ToolTip": "D:\\UTH_2023_2027\\CN2303CLCB_K23\\Ph\u00E2n T\u00EDch Thi\u1EBFt K\u1EBF Gi\u1EA3i Thu\u1EADt\\Team_Project\\Bai_7\\Bai_7\\Bai_7.cpp",
+              "RelativeToolTip": "Bai_7\\Bai_7.cpp",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-20T13:07:57.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
