@@ -15,7 +15,6 @@ void divideCandiesMinDifference(vector<int>& candies) {
     dp[0] = true;
     for (int i = 0; i < n; i++) {
         for (int j = target; j >= candies[i]; j--) {
-            //dp[j] = dp[j] || dp[j - candies[i]];
             if (dp[j - candies[i]])
                 dp[j] = dp[j - candies[i]];
         }
