@@ -27,16 +27,16 @@ void Nhap() {
     f.close();
 }
 
-double KhoangCach(int i, int j) {
+double DoDai(int i, int j) {
     return sqrt(pow((a[i] - a[j]), 2) + pow((b[i] - b[j]), 2));
 }
 
-void TinhKhoangCachCacDuongCheo() {
+void DoDaiDuongCheo() {
     memset(d, 0, sizeof(d));
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j < i; j++) {
             if (i != j && abs(i - j) != 1) {
-                d[i][j] = KhoangCach(i, j);
+                d[i][j] = DoDai(i, j);
                 d[j][i] = d[i][j];
             }
         }
@@ -72,7 +72,7 @@ void TruyVet(int i, int j, ofstream& f) {
 
 int main() {
     Nhap();
-    TinhKhoangCachCacDuongCheo();
+    DoDaiDuongCheo();
     QHD();
     ofstream f(fo);
     f << "Do dai ngan nhat: ";
