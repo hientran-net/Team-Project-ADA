@@ -1,114 +1,84 @@
 ﻿#include <iostream>
 #include <vector>
-#include <algorithm>
-#include <numeric>
-#include <fstream>
-
 using namespace std;
 
-// ham in mang
-void print(ofstream& f, vector<int>& a) {
-    f << "[";
-    for (int i = 0; i < a.size(); i++) {
-        f << a[i];
-        if (i < a.size() - 1) f << ", ";
-    }
-    f << "]";
-}
+void divideCandiesMinDifference(vector<int>& candies) {
+    // tính tổng n số nguyên
+    int total = 0;
+    for (int items : candies)
+        total += items;
 
+    // kích thước mảng
+    int n = candies.size();
+    // điểm đích để tìm ra tổng tối ưu - tổng có thể tạo thành bởi các phần tử
+    int target = total / 2;
 
-void timNhomToiUu(vector<int>& a, vector<int>& nhom1, vector<int>& nhom2, int& ketQua) {
+    // mảng dp khởi tạo với kiểu bool, có kích thước = target + 1, gán tất cả = false
+    vector<bool> dp(target + 1, false);
+    // gán cho cái trường hợp cơ sở luôn luôn đúng, tổng 0 với 0 phần tử
+    dp[0] = true;
 
-    // tinh tong cac phan tu trong mang chua N so nguyen
-    int total = accumulate(a.begin(), a.end(), 0);
-
-    // so luong phan tu trong mang
-    int n = a.size();
-
-
-    // khởi tạo mảng ( tổng khả dĩ - tổng có thể ) có kích thước tổng các phần tử + 1, gán tất cả bằng false
-    vector<bool> possible_sums(total + 1, false);
-    
-    // trường hợp luôn đúng
-    possible_sums[0] = true;
-
-
-    for (int num : a) {
-        for (int j = total; j >= num; j--) {
-            if (possible_sums[j - num]) {
-                possible_sums[j] = true;
-            }
+    // fill mảng
+    for (int i = 0; i < n; i++) { // chạy từ đầu đến hết mảng ( 0 - cuối mảng )
+        // tổng có thể tạo thành bởi các phần tử trong mảng hay 0
+        for (int j = target; j >= candies[i]; j--) { // j ( duyệt từ cuối ngược lên đầu )
+            if (dp[j - candies[i]]) // 
+                dp[j] = dp[j - candies[i]]; // gán giá trị true tại dp[j]
         }
     }
-    int optimal_sum = total / 2;
-    while (!possible_sums[optimal_sum]) {
-        optimal_sum--;
+
+    int sum1;
+    for (sum1 = target; sum1 >= 0; sum1--) {
+        if (dp[sum1])
+            break;
     }
 
-    int current_sum = 0;
-    sort(a.rbegin(), a.rend());
+    int sum2 = total - sum1;
 
-    nhom1.clear();
-    nhom2.clear();
-
-    for (int num : a) {
-        if (current_sum + num <= optimal_sum) {
-            nhom1.push_back(num);
-            current_sum += num;
-        }
-        else {
-            nhom2.push_back(num);
+    vector<int> part1, part2;
+    int currentSum = sum1;
+    for (int i = n - 1; i >= 0; i--) {
+        if (currentSum >= candies[i] && dp[currentSum - candies[i]]) {
+            part1.push_back(candies[i]);
+            currentSum -= candies[i];
         }
     }
-    int tong1 = accumulate(nhom1.begin(), nhom1.end(), 0LL);
-    int tong2 = accumulate(nhom2.begin(), nhom2.end(), 0LL);
-    ketQua = tong1 * tong2;
+    currentSum = sum2;
+    for (int i = n - 1; i >= 0; i--) {
+        if (find(part1.begin(), part1.end(), candies[i]) == part1.end()) {
+            part2.push_back(candies[i]);
+        }
+    }
+
+    // In kết quả
+    cout << "Part 1: ";
+    for (int items : part1)
+        cout << items << " ";
+    cout << "(" << total - sum2 << " candies)" << endl;
+
+    cout << "Part 2: ";
+    for (int items : part2)
+        cout << items << " ";
+    cout << "(" << total - sum1 << " candies)" << endl;
+
+    cout << "Tich hai tong lon nhat: " << sum1 * sum2 << "\n";
 }
 
 int main() {
-    ifstream fin("input.txt");
-    ofstream fout("output.txt");
+    vector<int> candies = { 2, 5, 4, 3, 15 }; // Ví dụ
+    //vector<int> candies = { 5, 5, 4, 4, 2 }; // Ví dụ
+    //vector<int> candies = { 3, 1, 16, 24, 3}; // Ví dụ
+    //vector<int> candies = { 3, 1, 16, 24, 3}; // Ví dụ
+    //vector<int> candies = { 1, 2, 3, 4, 5 }; // Ví dụ
+    //vector<int> candies = { 51, 28, 23, 1, 2, 4, 6, 7, 8, 1, 22, 4 }; // Ví dụ
+    divideCandiesMinDifference(candies);
 
-    if (!fin.is_open()) {
-        cout << "error to open input.txt\n";
-        return 1;
-    }
-    if (!fout.is_open()) {
-        cout << "error to open output.txt\n";
-        return 1;
-    }
 
-    int totalTestCase; // số bộ test
-    fin >> totalTestCase;
 
-    vector<int> nhom1, nhom2;
-    int ketQua;
-
-    while (totalTestCase--) {
-        int n; // số phần tử của mảng
-        fin >> n;
-
-        vector<int> a(n);
-        for (int i = 0; i < n; i++) {
-            fin >> a[i];
-        }
-
-        fout << "Day so ban dau: ";
-        print(fout, a);
-        fout << "\n";
-
-        timNhomToiUu(a, nhom1, nhom2, ketQua);
-
-        fout << "Nhom thu nhat: ";
-        print(fout, nhom1);
-        fout << " (tong nhom thu nhat = " << accumulate(nhom1.begin(), nhom1.end(), 0) << ")\n";
-
-        fout << "Nhóm thu hai: ";
-        print(fout, nhom2);
-        fout << " (tong nhom thu hai = " << accumulate(nhom2.begin(), nhom2.end(), 0) << ")\n";
-
-        fout << "Tich cua tong hai nhom: " << ketQua << "\n\n";
-    }
-
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
+    cout << "\n";
     return 0;
 }
