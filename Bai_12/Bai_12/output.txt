@@ -1,0 +1,15 @@
+Day so ban dau: [1, 2, 3, 4]
+Nhom thu nhat: [4, 1] (tong nhom thu nhat = 5)
+Nhóm thu hai: [3, 2] (tong nhom thu hai = 5)
+Tich cua tong hai nhom: 25
+
+Day so ban dau: [1, 1, 2, 2, 3]
+Nhom thu nhat: [3, 1] (tong nhom thu nhat = 4)
+Nhóm thu hai: [2, 2, 1] (tong nhom thu hai = 5)
+Tich cua tong hai nhom: 20
+
+Day so ban dau: [5, 4, 3, 2, 1]
+Nhom thu nhat: [5, 2] (tong nhom thu nhat = 7)
+Nhóm thu hai: [4, 3, 1] (tong nhom thu hai = 8)
+Tich cua tong hai nhom: 56
+

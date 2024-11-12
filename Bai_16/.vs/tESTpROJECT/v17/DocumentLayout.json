@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\CHIADAGIAC.OUT||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|solutionrelative:tESTpROJECT\\CHIADAGIAC.OUT||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\CHIADAGIAC.INP||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|solutionrelative:tESTpROJECT\\CHIADAGIAC.INP||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\tESTpROJECT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|solutionrelative:tESTpROJECT\\tESTpROJECT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tESTpROJECT.cpp",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\tESTpROJECT.cpp",
+              "RelativeDocumentMoniker": "tESTpROJECT\\tESTpROJECT.cpp",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\tESTpROJECT.cpp",
+              "RelativeToolTip": "tESTpROJECT\\tESTpROJECT.cpp",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAtwFgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T10:58:41.764Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CHIADAGIAC.INP",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\CHIADAGIAC.INP",
+              "RelativeDocumentMoniker": "tESTpROJECT\\CHIADAGIAC.INP",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\CHIADAGIAC.INP",
+              "RelativeToolTip": "tESTpROJECT\\CHIADAGIAC.INP",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-11T08:01:52.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CHIADAGIAC.OUT",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\CHIADAGIAC.OUT",
+              "RelativeDocumentMoniker": "tESTpROJECT\\CHIADAGIAC.OUT",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\tESTpROJECT\\tESTpROJECT\\CHIADAGIAC.OUT",
+              "RelativeToolTip": "tESTpROJECT\\CHIADAGIAC.OUT",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-11T08:02:06.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

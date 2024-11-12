@@ -1,0 +1,13 @@
+﻿  Bai_12.cpp
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(26,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(63,15): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(63,15): warning C4244:         with
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(63,15): warning C4244:         [
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(63,15): warning C4244:             _Ty=__int64
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(63,15): warning C4244:         ]
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(64,15): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(64,15): warning C4244:         with
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(64,15): warning C4244:         [
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(64,15): warning C4244:             _Ty=__int64
+D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\Bai_12\Bai_12.cpp(64,15): warning C4244:         ]
+  Bai_12.vcxproj -> D:\University\CN2303CLCB_K23\Phân_Tích_Thiết_Kế_Giải_Thuật\Team_Project\GITHUB\Team-Project-ADA\Bai_12\x64\Debug\Bai_12.exe
