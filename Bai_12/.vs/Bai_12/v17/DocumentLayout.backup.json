@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bai_12.cpp",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_12\\Bai_12\\Bai_12.cpp",
+              "RelativeDocumentMoniker": "Bai_12\\Bai_12.cpp",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_12\\Bai_12\\Bai_12.cpp",
+              "RelativeToolTip": "Bai_12\\Bai_12.cpp",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T09:24:02.047Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,7 +45,7 @@
               "RelativeDocumentMoniker": "Bai_12\\output.txt",
               "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_12\\Bai_12\\output.txt",
               "RelativeToolTip": "Bai_12\\output.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-11-12T09:41:59.207Z"
             },
@@ -47,19 +60,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-11-12T09:36:39.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bai_12.cpp",
-              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_12\\Bai_12\\Bai_12.cpp",
-              "RelativeDocumentMoniker": "Bai_12\\Bai_12.cpp",
-              "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_12\\Bai_12\\Bai_12.cpp",
-              "RelativeToolTip": "Bai_12\\Bai_12.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-12T09:24:02.047Z",
-              "EditorCaption": ""
             }
           ]
         }

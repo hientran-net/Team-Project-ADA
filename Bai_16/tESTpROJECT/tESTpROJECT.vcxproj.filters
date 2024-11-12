@@ -23,8 +23,13 @@
     <None Include="CHIADAGIAC.INP">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="CHIADAGIAC.OUT">
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt">
       <Filter>Source Files</Filter>
-    </None>
+    </Text>
+    <Text Include="input.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
