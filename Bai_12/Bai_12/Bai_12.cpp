@@ -2,14 +2,14 @@
 #include <vector>
 using namespace std;
 
-void divideCandiesMinDifference(vector<int>& candies) {
+void dividearrMinDifference(vector<int>& arr) {
     // tính tổng n số nguyên
     int total = 0;
-    for (int items : candies)
+    for (int items : arr)
         total += items;
 
     // kích thước mảng
-    int n = candies.size();
+    int n = arr.size();
     // điểm đích để tìm ra tổng tối ưu - tổng có thể tạo thành bởi các phần tử
     int target = total / 2;
 
@@ -21,9 +21,9 @@ void divideCandiesMinDifference(vector<int>& candies) {
     // fill mảng
     for (int i = 0; i < n; i++) { // chạy từ đầu đến hết mảng ( 0 - cuối mảng )
         // tổng có thể tạo thành bởi các phần tử trong mảng hay 0
-        for (int j = target; j >= candies[i]; j--) { // j ( duyệt từ cuối ngược lên đầu )
-            if (dp[j - candies[i]]) // 
-                dp[j] = dp[j - candies[i]]; // gán giá trị true tại dp[j]
+        for (int j = target; j >= arr[i]; j--) { // j ( duyệt từ cuối ngược lên đầu )
+            if (dp[j - arr[i]]) // 
+                dp[j] = dp[j - arr[i]]; // gán giá trị true tại dp[j]
         }
     }
 
@@ -38,15 +38,15 @@ void divideCandiesMinDifference(vector<int>& candies) {
     vector<int> part1, part2;
     int currentSum = sum1;
     for (int i = n - 1; i >= 0; i--) {
-        if (currentSum >= candies[i] && dp[currentSum - candies[i]]) {
-            part1.push_back(candies[i]);
-            currentSum -= candies[i];
+        if (currentSum >= arr[i] && dp[currentSum - arr[i]]) {
+            part1.push_back(arr[i]);
+            currentSum -= arr[i];
         }
     }
     currentSum = sum2;
     for (int i = n - 1; i >= 0; i--) {
-        if (find(part1.begin(), part1.end(), candies[i]) == part1.end()) {
-            part2.push_back(candies[i]);
+        if (find(part1.begin(), part1.end(), arr[i]) == part1.end()) {
+            part2.push_back(arr[i]);
         }
     }
 
@@ -54,31 +54,23 @@ void divideCandiesMinDifference(vector<int>& candies) {
     cout << "Part 1: ";
     for (int items : part1)
         cout << items << " ";
-    cout << "(" << total - sum2 << " candies)" << endl;
+    cout << "(" << total - sum2 << " phan tu)" << endl;
 
     cout << "Part 2: ";
     for (int items : part2)
         cout << items << " ";
-    cout << "(" << total - sum1 << " candies)" << endl;
+    cout << "(" << total - sum1 << " phan tu)" << endl;
 
     cout << "Tich hai tong lon nhat: " << sum1 * sum2 << "\n";
 }
 
 int main() {
-    vector<int> candies = { 2, 5, 4, 3, 15 }; // Ví dụ
-    //vector<int> candies = { 5, 5, 4, 4, 2 }; // Ví dụ
-    //vector<int> candies = { 3, 1, 16, 24, 3}; // Ví dụ
-    //vector<int> candies = { 3, 1, 16, 24, 3}; // Ví dụ
-    //vector<int> candies = { 1, 2, 3, 4, 5 }; // Ví dụ
-    //vector<int> candies = { 51, 28, 23, 1, 2, 4, 6, 7, 8, 1, 22, 4 }; // Ví dụ
-    divideCandiesMinDifference(candies);
-
-
-
-    cout << "\n";
-    cout << "\n";
-    cout << "\n";
-    cout << "\n";
-    cout << "\n";
+    vector<int> arr = { 2, 5, 4, 3, 15 }; // Ví dụ
+    //vector<int> arr = { 5, 5, 4, 4, 2 }; // Ví dụ
+    //vector<int> arr = { 3, 1, 16, 24, 3}; // Ví dụ
+    //vector<int> arr = { 3, 1, 16, 24, 3}; // Ví dụ
+    //vector<int> arr = { 1, 2, 3, 4, 5 }; // Ví dụ
+    //vector<int> arr = { 51, 28, 23, 1, 2, 4, 6, 7, 8, 1, 22, 4 }; // Ví dụ
+    dividearrMinDifference(arr);
     return 0;
 }

@@ -76,7 +76,7 @@ int main() {
     QHD();
     ofstream f(fo);
     f << "Do dai ngan nhat: ";
-    f << fixed << setprecision(2) << L[1][n] << endl;
+    f /*<< fixed << setprecision(2) */<< L[1][n] << endl;
     TruyVet(1, n, f);
     f.close();
     return 0;
