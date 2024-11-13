@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|solutionrelative:tESTpROJECT\\tESTpROJECT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_16\\tESTpROJECT\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|solutionrelative:tESTpROJECT\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_16\\tESTpROJECT\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|solutionrelative:tESTpROJECT\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_16\\tESTpROJECT\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1BA2948-C30B-4559-98C0-16BC2C86CDAC}|tESTpROJECT\\tESTpROJECT.vcxproj|solutionrelative:tESTpROJECT\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "input.txt",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_16\\tESTpROJECT\\input.txt",
               "RelativeDocumentMoniker": "tESTpROJECT\\input.txt",
@@ -53,13 +53,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "output.txt",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_16\\tESTpROJECT\\output.txt",
               "RelativeDocumentMoniker": "tESTpROJECT\\output.txt",
-              "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_16\\tESTpROJECT\\output.txt",
-              "RelativeToolTip": "tESTpROJECT\\output.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\Ph\u00E2n_T\u00EDch_Thi\u1EBFt_K\u1EBF_Gi\u1EA3i_Thu\u1EADt\\Team_Project\\GITHUB\\Team-Project-ADA\\Bai_16\\tESTpROJECT\\output.txt*",
+              "RelativeToolTip": "tESTpROJECT\\output.txt*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-11-12T16:36:21.997Z",
               "EditorCaption": ""
